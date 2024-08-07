@@ -19,7 +19,7 @@ function App() {
 function Header() {
   return (
     <div className="header">
-      <a href="#"><img src="../public/img/mobilelogo.svg" alt="Logo" /></a>
+      <a href="#"><img src="../public/Image/mobilelogo.svg" alt="Logo" /></a>
       <a href="#" className="header-btn">Free Consultation</a>
   </div>
   )  
@@ -37,12 +37,12 @@ function Hero() {
 function ContainerContent() {
   return(
     <div className="content-container">
-      <div className="content"><img src="../public/img/graphicdeign-img.png"/>Graphic Design</div>
-      <div className="content tek"><img src="../public/img/uiux-img.png"/>UI/UX</div>
-      <div className="content tek"><img src="../public/img/apps-img.png"/>Apps</div>
-      <div className="content"><img src="../public/img/Illustrations-img.png"/>Illustrations</div>
-      <div className="content"><img src="../public/img/photography-img.png"/>Photography</div>
-      <div className="content"><img src="../public/img/motiongraphic-img.png"/>Motion Graphics</div>
+      <div className="content"><img src="../public/Image/graphicdeign-img.png"/>Graphic Design</div>
+      <div className="content tek"><img src="../public/Image/uiux-img.png"/>UI/UX</div>
+      <div className="content tek"><img src="../public/Image/apps-img.png"/>Apps</div>
+      <div className="content"><img src="../public/Image/Illustrations-img.png"/>Illustrations</div>
+      <div className="content"><img src="../public/Image/photography-img.png"/>Photography</div>
+      <div className="content"><img src="../public/Image/motiongraphic-img.png"/>Motion Graphics</div>
     </div>
   )
 }
@@ -50,7 +50,7 @@ function ContainerContent() {
 function AboutMe() {
   return(
     <div className="about-me">
-      <img src="../public/img/aboutme-img.png" alt="Amy" />
+      <img src="../public/Image/aboutme-img.png" alt="Amy" />
       <div className="about-me-description">
         <h2>I’m Amy, and I’d love to work on your next project</h2>
         <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
@@ -75,7 +75,7 @@ function Booking() {
 function Footer() {
   return(
     <div className="footer">
-      <a href="/index.html"><img src="../public/img/mobilelogo.svg" alt="Logo" /></a>
+      <a href="/index.html"><img src="../public/Image/mobilelogo.svg" alt="Logo" /></a>
       <a href="#" className="header-btn">Free Consultation</a>
     </div>
   )
